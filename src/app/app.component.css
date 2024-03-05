@@ -1,0 +1,10 @@
+.content{
+  margin-top: 10%;
+text-align: center;
+}
+.mi-toggle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
