@@ -12,16 +12,19 @@
     <div>Results</div>
   } -->
 
-  <div class="content">
-    <div>
+  <div class="content row-1 col-12">
+    <div class="col-12">
       <h1>Hello, {{ title }}</h1>
       <p>Congratulations! Your app is running. 🎉</p>
     </div>
-    <div class="mi-toggle">
+    <div class="mi-component col-6 mb-5">
       <mat-slide-toggle>Toggle me!</mat-slide-toggle>
     </div>
-   
-  </div>
+    <div class="mi-component col-6 text-bg-success p-5">
+      <app-badges-position></app-badges-position>
+    </div>
+  </div>  
+  
 </main>
 
 <router-outlet />
