@@ -6,13 +6,14 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatBadgeModule} from '@angular/material/badge';
 import { BadgesPositionComponent } from "./components/badges-position/badges-position.component";
+import { QRCodeModule } from 'ngx-qrcode';
 // todos los import van aqui
 @Component({
     selector: 'app-root',
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, MatSlideToggleModule, MatSidenavModule, MatBadgeModule, MatButtonModule, MatIconModule, BadgesPositionComponent]
+    imports: [RouterOutlet, MatSlideToggleModule, MatSidenavModule, MatBadgeModule, MatButtonModule, MatIconModule, BadgesPositionComponent, QRCodeModule]
 })
 export class AppComponent {
   title = 'MaterialUI_Angular';

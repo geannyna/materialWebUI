@@ -1,0 +1,39 @@
+
+<!-- 
+-- instalar angular
+npm install -g @angular/cli 
+
+-- crear nuevo proyecto
+ng new mi-proyecto
+
+-- instalar la librería ngx-qrcode
+cd mi-proyecto
+npm install ngx-qrcode
+
+-- importar el módulo QR Code: en el módulo app.routes.ts importar el módulo QRCodeModule
+import { QRCodeModule } from 'angularx-qrcode';
+// ...
+@NgModule({
+  declarations: [
+    // ...
+  ],
+  imports: [
+    // ...
+    QRCodeModule,
+  ],
+  // ...
+})
+
+-- crear el codigo QR en el componente:
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-mi-componente',
+  template: `
+    <qrcode [qrdata]="'https://www.ejemplo.com'"></qrcode>
+  `,
+})
+export class MiComponenteComponent {
+  // ...
+}
+-->
