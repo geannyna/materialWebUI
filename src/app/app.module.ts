@@ -1,14 +1,11 @@
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
-import { NgModule } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { QRCodeModule } from 'angularx-qrcode';
-
-
-
+import { FormsModule } from '@angular/forms';
+import { MatTableModule } from '@angular/material/table';
 
 @NgModule({
   declarations: [
@@ -19,8 +16,11 @@ import { QRCodeModule } from 'angularx-qrcode';
     MatSlideToggleModule,
     ReactiveFormsModule,
     QRCodeModule,
+    FormsModule,
+    MatTableModule, 
   ],
   providers: [],
   bootstrap: [],
+  schemas: [NO_ERRORS_SCHEMA],
 })
 export class AppModule {}

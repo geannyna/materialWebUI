@@ -1,0 +1,10 @@
+
+.contenedor{
+  display: block;
+  padding: 18px;
+}
+table {
+  width: 30%;
+  height: auto;
+  border: 12px double rgb(51, 117, 115);
+}
