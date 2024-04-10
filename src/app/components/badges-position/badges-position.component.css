@@ -7,3 +7,42 @@
 .demo-section + .demo-section {
   margin-top: 16px;
 }
+.container-badges{
+background-color: rgb(72, 142, 72);
+padding: 10px;
+}
+
+.container-input{
+  background-color: rgb(250, 250, 251);
+  padding: 20px;
+}
+
+.n1{
+  box-shadow: 1px 1px 15px 3px rgb(201, 201, 201) inset;
+  border-top: transparent;
+  border-bottom: 2px solid rgb(144, 144, 144);
+}
+.n2{
+  box-shadow: 1px 1px 5px 3px rgb(201, 201, 201) outset;
+  border: transparent;
+  border-bottom: 3px solid rgb(63, 63, 63);
+  border-right: 3px solid rgb(63, 63, 63);
+  border-radius: 10px;
+}
+.n3{
+  box-shadow: 3px 3px 5px 1px rgb(161, 161, 161) inset;
+  border: transparent;
+  border-radius: 6px;
+}
+.n4{
+  box-shadow: 3px 5px 3px rgb(161, 161, 161);
+  border: transparent;
+  border-radius: 6px;
+}
+.n5{
+  border-left: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  border-bottom: 4px solid rgb(102, 102, 102);
+  border-radius: 16px;
+}

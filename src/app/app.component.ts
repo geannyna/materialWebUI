@@ -15,7 +15,7 @@ import { TableResponsiveComponent } from "../table-responsive/table-responsive.c
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, MatSlideToggleModule, MatSidenavModule, MatBadgeModule, MatButtonModule, MatIconModule, BadgesPositionComponent, TableResponsiveComponent]
+    imports: [RouterOutlet, MatSlideToggleModule, MatSidenavModule, MatBadgeModule, MatButtonModule, MatIconModule, BadgesPositionComponent, TableResponsiveComponent, MatBadgeModule, MatButtonModule, MatIconModule]
 })
 export class AppComponent {
   title = 'MaterialUI_Angular';
